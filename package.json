@@ -3,5 +3,31 @@
   "version": "0.0.1",
   "main": "lib/index.js",
   "description": "A helper function to cache promise",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/kyle-ruan/promise-cache-fn.git",
+  "author": "Kyle Ruan",
+  "keywords": [
+    "cache",
+    "promise",
+    "promise-cache"
+  ],
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "jest": "^25.1.0",
+    "semistandard": "^14.2.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "semistandard"
+  },
+  "semistandard": {
+    "globals": [
+      "it",
+      "jest",
+      "describe",
+      "expect",
+      "beforeEach",
+      "beforeAll"
+    ]
+  }
 }
