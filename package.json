@@ -1,0 +1,7 @@
+{
+  "name": "promise-cache-fn",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "description": "A helper function to cache promise",
+  "license": "MIT"
+}
