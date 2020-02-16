@@ -2,7 +2,7 @@
 
 ### Usage
 ```javascript
-const { cachePromise } = require('promise-cache-fn');
+const cachePromise = require('promise-cache-fn');
 
 const promiseFn = () => Promise.resolve();
 
